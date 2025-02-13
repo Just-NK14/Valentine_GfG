@@ -1,0 +1,37 @@
+:root{
+  --heart-color:#ff5873;
+  --background-color: pink;
+  --white:#fff;
+}
+body{
+  font-family: Tahoma;
+  background-color: var(--background-color);
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  color:var(--heart-color);
+  background-image:url('images/mini-hearth.png');
+  background-size: 75%;
+}
+.card{
+  text-align: center;
+}
+.title{
+  font-size: 28px;
+}
+.animation{
+  width: 280px;
+  display: inline-block;
+}
+.img-fluid{
+  width: 100%;
+  height: auto;
+}
+.text{
+  padding:20px;
+  font-size:18px;
+}
